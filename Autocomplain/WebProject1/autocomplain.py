@@ -9,7 +9,7 @@ def main():
     auth = tweepy.OAuthHandler(key, secret)
     auth.set_access_token(token, token_secret)
     client = tweepy.API(auth)
-    client.update_status("#Test Rocks!")
+    client.update_status("#a Rocks!")
 
 if __name__ == '__main__':
     main()
