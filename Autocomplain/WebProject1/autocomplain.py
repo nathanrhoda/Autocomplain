@@ -1,5 +1,6 @@
 import time
 import tweepy
+from autocomplain import tweepy
 
 def main(): 
     key =  'DTSG74qb7twxzGdgMA4GAH9bZ' 
