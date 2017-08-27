@@ -11,8 +11,8 @@ def main():
 		minutes = str(int(dateDiff.total_seconds() / 60))
 		seconds = str(int(dateDiff.total_seconds()))
 
-		tweet = "@UPSHelp @UPS @UPS_News @pimoroni Tracking No. 1Z8A1E460491377435 " + days + " Days " + hours + " Hours " + minutes + " Minutes " + seconds + " Seconds Still Waiting !!!"
-		time.sleep(5)
+		tweet = "@UPSHelp @UPS @UPS_News @pimoroni TrNo 1Z8A1E460491377435 " + days + " Days " + hours + " Hours " + minutes + " Minutes " + seconds + " Seconds Still Waiting !!! #CustomerService"
+		time.sleep(10)
 		
 		key =  'DTSG74qb7twxzGdgMA4GAH9bZ' 
 		secret =  'kfpY2bzDZblf84tkgVXja6laSVW6KQVWXDOrh8b2CeOCrAg8kJ'
